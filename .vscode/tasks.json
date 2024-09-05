@@ -11,6 +11,7 @@
                 "-std=c++17",           // C++ standard
                 "-Wall",                 // Enable all warnings
                 "-Wextra",               // Enable extra warnings
+                "-target", "arm64-apple-macosx11.0",  // Target architecture
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
