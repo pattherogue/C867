@@ -2,13 +2,13 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: clang build active file",
-            "command": "/usr/bin/clang",
+            "label": "C/C++: clang++ build active file",
+            "command": "/usr/bin/clang++",
             "args": [
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
                 "-g",
-                "-std=c++17",           // C++ standard
+                "-std=c++17",           // Specify C++ standard
                 "-Wall",                 // Enable all warnings
                 "-Wextra",               // Enable extra warnings
                 "-target", "arm64-apple-macosx11.0",  // Target architecture
